@@ -58,17 +58,17 @@ Once your database is properly seeded, build an Express app that serves the foll
 endpoints. Remember to send appropriate status codes and error messages! You can use `npm
 run test` to check your work as you build out these endpoints.
 
-`/tracks` router
+<!-- `/tracks` router
 
 - `GET /tracks` sends array of all tracks
 - `GET /tracks/:id` sends track specified by id
 
-`/playlists` router
+`/playlists` router -->
 
-- `GET /playlists` sends array of all playlists
+<!-- - `GET /playlists` sends array of all playlists
 - `POST /playlists` creates a new empty playlist
-- `GET /playlists/:id` sends playlist specified by id
-- `GET /playlists/:id/tracks` sends all tracks in the playlist
-- `POST /playlists/:id/tracks` adds a new track to the playlist
+- `GET /playlists/:id` sends playlist specified by id -->
+<!-- - `GET /playlists/:id/tracks` sends all tracks in the playlist -->
+<!-- - `POST /playlists/:id/tracks` adds a new track to the playlist
   - `trackId` should be sent in request body
-  - Sends the created `playlist_track` with status 201
+  - Sends the created `playlist_track` with status 201 -->

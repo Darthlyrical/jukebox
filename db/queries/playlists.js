@@ -17,3 +17,12 @@ export async function getPlaylists() {
     return playlists;
     
 }
+
+export async function getPlaylistById(id){
+    const text = `
+    SELECT * FROM playlists
+    WHERE id = $1`;
+
+    const { rows:[playlist] } = await db.query(text,[id]);
+    return playlist;
+}
